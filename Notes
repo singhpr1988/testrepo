@@ -1,0 +1,20 @@
+
+Brief about the design:-
+
+Have made use of maven to download the dependencies part
+
+Name of the classes and their methods are self explanatory, as per the design have designated BattleArea to each player, list of targets for the opponent and the opponent
+BattleArea has collection of Battleships inside, along with their Location.
+Every class designed in a way to have single responsibility
+
+Instruction to run the code:-
+
+Just run the BattleProcessor.java file that will internally take care of reading input from the input file and printing it to console.  
+
+
+Assumptions:-
+
+Taking Height of battleship in number as provided in the same way in the input example present in the question (BattleShip_Game_V3.pdf) shared with me
+
+Assuming that the limit of width and height of battlearea and battleship will remain in the limit as mentioned in the question(BattleShip_Game_V3.pdf) shared with me
+
